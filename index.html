@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Mandelbrot</title>
+    <script>
+        var can, ct;
+        var viewportMinX, viewportMaxX, viewportWidth, viewportMinY, ratio, viewportHeight, viewportMaxY;
+        var maxIterNumb;
+
+        var fractal = "mandelbrot", escape;
+    </script>
+    <script src="jquery.min.js"></script>
+    <script src="render.js"></script>
+    <script src="zoom.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+
+<body>
+<canvas id="can"></canvas>
+</body>
+
+</html>
